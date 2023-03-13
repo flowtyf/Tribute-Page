@@ -18,7 +18,7 @@ main {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  margin: 10px;
+  margin: 0;
   background-color: #001637;
   color: #ffd60a;
   line-height: 1.5;
@@ -97,7 +97,6 @@ li::before {
 #quote {
   background-color: #000814;
   min-width: 100%;
-  margin: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -115,6 +114,13 @@ blockquote, cite{
   text-align: center;
 }
 
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
 
 #cta {
   text-align: center;
